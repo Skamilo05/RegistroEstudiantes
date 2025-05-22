@@ -1,0 +1,276 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB474B5A-9702-4033-9E2D-0417FFC91499}|RegistroEstudiantes\\RegistroEstudiantes.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\registroestudiantes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB474B5A-9702-4033-9E2D-0417FFC91499}|RegistroEstudiantes\\RegistroEstudiantes.csproj|solutionrelative:registroestudiantes\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29B745-A9F3-4834-9162-9B106A2BA85C}|infrastructure\\infrastructure.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\infrastructure\\repositories\\estudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29B745-A9F3-4834-9162-9B106A2BA85C}|infrastructure\\infrastructure.csproj|solutionrelative:infrastructure\\repositories\\estudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\domain\\interfaces\\iestudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|solutionrelative:domain\\interfaces\\iestudianterepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29B745-A9F3-4834-9162-9B106A2BA85C}|infrastructure\\infrastructure.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29B745-A9F3-4834-9162-9B106A2BA85C}|infrastructure\\infrastructure.csproj|solutionrelative:infrastructure\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA33E664-EE15-40AC-82F9-57B67ACFA2EC}|aplication\\application.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\aplication\\usecases\\obtenermateriasdisponibles\\materiadisponibledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA33E664-EE15-40AC-82F9-57B67ACFA2EC}|aplication\\application.csproj|solutionrelative:aplication\\usecases\\obtenermateriasdisponibles\\materiadisponibledto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\domain\\entities\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\materia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\domain\\entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\estudiante.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29B745-A9F3-4834-9162-9B106A2BA85C}|infrastructure\\infrastructure.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\infrastructure\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29B745-A9F3-4834-9162-9B106A2BA85C}|infrastructure\\infrastructure.csproj|solutionrelative:infrastructure\\data\\appdbcontextfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\domain\\entities\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\profesor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\domain\\entities\\estudiantemateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C8702FD-30F7-47DD-B47D-0EBE74988DA9}|Domain\\Domain.csproj|solutionrelative:domain\\entities\\estudiantemateria.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3A29B745-A9F3-4834-9162-9B106A2BA85C}|infrastructure\\infrastructure.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\infrastructure\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3A29B745-A9F3-4834-9162-9B106A2BA85C}|infrastructure\\infrastructure.csproj|solutionrelative:infrastructure\\data\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB474B5A-9702-4033-9E2D-0417FFC91499}|RegistroEstudiantes\\RegistroEstudiantes.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\registroestudiantes\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB474B5A-9702-4033-9E2D-0417FFC91499}|RegistroEstudiantes\\RegistroEstudiantes.csproj|solutionrelative:registroestudiantes\\controllers\\estudiantescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB474B5A-9702-4033-9E2D-0417FFC91499}|RegistroEstudiantes\\RegistroEstudiantes.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\registroestudiantes\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB474B5A-9702-4033-9E2D-0417FFC91499}|RegistroEstudiantes\\RegistroEstudiantes.csproj|solutionrelative:registroestudiantes\\controllers\\materiascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA33E664-EE15-40AC-82F9-57B67ACFA2EC}|aplication\\application.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\aplication\\usecases\\obtenermateriasdisponibles\\obtenermateriasdisponibleshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA33E664-EE15-40AC-82F9-57B67ACFA2EC}|aplication\\application.csproj|solutionrelative:aplication\\usecases\\obtenermateriasdisponibles\\obtenermateriasdisponibleshandler.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{AA33E664-EE15-40AC-82F9-57B67ACFA2EC}|aplication\\application.csproj|c:\\users\\user\\source\\repos\\registroestudiantes\\aplication\\usecases\\obtenermateriasdisponibles\\iobtenermateriasdisponiblesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{AA33E664-EE15-40AC-82F9-57B67ACFA2EC}|aplication\\application.csproj|solutionrelative:aplication\\usecases\\obtenermateriasdisponibles\\iobtenermateriasdisponiblesusecase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EstudianteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\infrastructure\\Repositories\\EstudianteRepository.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Repositories\\EstudianteRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\infrastructure\\Repositories\\EstudianteRepository.cs",
+              "RelativeToolTip": "infrastructure\\Repositories\\EstudianteRepository.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAIwDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:33:21.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IEstudianteRepository.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Interfaces\\IEstudianteRepository.cs",
+              "RelativeDocumentMoniker": "Domain\\Interfaces\\IEstudianteRepository.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Interfaces\\IEstudianteRepository.cs",
+              "RelativeToolTip": "Domain\\Interfaces\\IEstudianteRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:20:22.004Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\infrastructure\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\infrastructure\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "infrastructure\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABwAAAA+AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:59:41.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\RegistroEstudiantes\\Program.cs",
+              "RelativeDocumentMoniker": "RegistroEstudiantes\\Program.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\RegistroEstudiantes\\Program.cs",
+              "RelativeToolTip": "RegistroEstudiantes\\Program.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAADcAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:50:33.51Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Materia.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Entities\\Materia.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Materia.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Entities\\Materia.cs",
+              "RelativeToolTip": "Domain\\Entities\\Materia.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:18:44.86Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Estudiante.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Entities\\Estudiante.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Estudiante.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Entities\\Estudiante.cs",
+              "RelativeToolTip": "Domain\\Entities\\Estudiante.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:12:57.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Profesor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Entities\\Profesor.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\Profesor.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Entities\\Profesor.cs",
+              "RelativeToolTip": "Domain\\Entities\\Profesor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:11:06.413Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "EstudianteMateria.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Entities\\EstudianteMateria.cs",
+              "RelativeDocumentMoniker": "Domain\\Entities\\EstudianteMateria.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\Domain\\Entities\\EstudianteMateria.cs",
+              "RelativeToolTip": "Domain\\Entities\\EstudianteMateria.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T14:11:02.982Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "DbInitializer.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\infrastructure\\Data\\DbInitializer.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Data\\DbInitializer.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\infrastructure\\Data\\DbInitializer.cs",
+              "RelativeToolTip": "infrastructure\\Data\\DbInitializer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:55:24.833Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "AppDbContextFactory.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\infrastructure\\Data\\AppDbContextFactory.cs",
+              "RelativeDocumentMoniker": "infrastructure\\Data\\AppDbContextFactory.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\infrastructure\\Data\\AppDbContextFactory.cs",
+              "RelativeToolTip": "infrastructure\\Data\\AppDbContextFactory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T13:55:21Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EstudiantesController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\RegistroEstudiantes\\Controllers\\EstudiantesController.cs",
+              "RelativeDocumentMoniker": "RegistroEstudiantes\\Controllers\\EstudiantesController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\RegistroEstudiantes\\Controllers\\EstudiantesController.cs",
+              "RelativeToolTip": "RegistroEstudiantes\\Controllers\\EstudiantesController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:51:07.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "MateriasController.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\RegistroEstudiantes\\Controllers\\MateriasController.cs",
+              "RelativeDocumentMoniker": "RegistroEstudiantes\\Controllers\\MateriasController.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\RegistroEstudiantes\\Controllers\\MateriasController.cs",
+              "RelativeToolTip": "RegistroEstudiantes\\Controllers\\MateriasController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:51:05.979Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ObtenerMateriasDisponiblesHandler.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\aplication\\UseCases\\ObtenerMateriasDisponibles\\ObtenerMateriasDisponiblesHandler.cs",
+              "RelativeDocumentMoniker": "aplication\\UseCases\\ObtenerMateriasDisponibles\\ObtenerMateriasDisponiblesHandler.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\aplication\\UseCases\\ObtenerMateriasDisponibles\\ObtenerMateriasDisponiblesHandler.cs",
+              "RelativeToolTip": "aplication\\UseCases\\ObtenerMateriasDisponibles\\ObtenerMateriasDisponiblesHandler.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAQwCQAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:50:08.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IObtenerMateriasDisponiblesUseCase.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\aplication\\UseCases\\ObtenerMateriasDisponibles\\IObtenerMateriasDisponiblesUseCase.cs",
+              "RelativeDocumentMoniker": "aplication\\UseCases\\ObtenerMateriasDisponibles\\IObtenerMateriasDisponiblesUseCase.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\aplication\\UseCases\\ObtenerMateriasDisponibles\\IObtenerMateriasDisponiblesUseCase.cs",
+              "RelativeToolTip": "aplication\\UseCases\\ObtenerMateriasDisponibles\\IObtenerMateriasDisponiblesUseCase.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:49:30.931Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MateriaDisponibleDto.cs",
+              "DocumentMoniker": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\aplication\\UseCases\\ObtenerMateriasDisponibles\\MateriaDisponibleDto.cs",
+              "RelativeDocumentMoniker": "aplication\\UseCases\\ObtenerMateriasDisponibles\\MateriaDisponibleDto.cs",
+              "ToolTip": "C:\\Users\\User\\source\\repos\\RegistroEstudiantes\\aplication\\UseCases\\ObtenerMateriasDisponibles\\MateriaDisponibleDto.cs",
+              "RelativeToolTip": "aplication\\UseCases\\ObtenerMateriasDisponibles\\MateriaDisponibleDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T05:48:30.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

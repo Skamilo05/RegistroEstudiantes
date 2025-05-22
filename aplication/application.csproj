@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="UseCases\NewFolder1\**" />
+    <Compile Remove="UseCases\NewFolder\**" />
+    <EmbeddedResource Remove="UseCases\NewFolder1\**" />
+    <EmbeddedResource Remove="UseCases\NewFolder\**" />
+    <None Remove="UseCases\NewFolder1\**" />
+    <None Remove="UseCases\NewFolder\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,114 @@
+[
+  {
+    "ContainingType": "RegistroEstudiantes.Controllers.EstudiantesController",
+    "Method": "Registrar",
+    "RelativePath": "api/Estudiantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comando",
+        "Type": "Application.UseCases.RegistrarEstudiante.RegistrarEstudianteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroEstudiantes.Controllers.EstudiantesController",
+    "Method": "ObtenerMaterias",
+    "RelativePath": "api/Estudiantes/{id}/materias",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroEstudiantes.Controllers.EstudiantesController",
+    "Method": "ObtenerMateriasDisponibles",
+    "RelativePath": "api/Estudiantes/{id}/materias-disponibles",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroEstudiantes.Controllers.EstudiantesController",
+    "Method": "ObtenerResumen",
+    "RelativePath": "api/Estudiantes/{id}/resumen",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroEstudiantes.Controllers.EstudiantesController",
+    "Method": "Inscribir",
+    "RelativePath": "api/Estudiantes/inscribir",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comando",
+        "Type": "Application.UseCases.InscribirMateria.InscribirMateriaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroEstudiantes.Controllers.EstudiantesController",
+    "Method": "Login",
+    "RelativePath": "api/Estudiantes/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "comando",
+        "Type": "Application.UseCases.LoginEstudiante.LoginEstudianteCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "RegistroEstudiantes.Controllers.MateriasController",
+    "Method": "ObtenerCompaneros",
+    "RelativePath": "api/Materias/{materiaId}/companeros",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "materiaId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
