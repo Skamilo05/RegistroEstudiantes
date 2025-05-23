@@ -37,10 +37,6 @@ namespace infrastructure.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.PrimitiveCollection<string>("MateriasInscritas")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
                     b.Property<string>("Nombre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -61,14 +57,24 @@ namespace infrastructure.Migrations
                     b.Property<int>("EstudianteId")
                         .HasColumnType("int");
 
+                    b.Property<int?>("EstudianteId1")
+                        .HasColumnType("int");
+
                     b.Property<int>("MateriaId")
+                        .HasColumnType("int");
+
+                    b.Property<int?>("MateriaId1")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
                     b.HasIndex("EstudianteId");
 
+                    b.HasIndex("EstudianteId1");
+
                     b.HasIndex("MateriaId");
+
+                    b.HasIndex("MateriaId1");
 
                     b.ToTable("EstudiantesMaterias");
                 });
@@ -125,15 +131,33 @@ namespace infrastructure.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Domain.Entities.Estudiante", null)
+                        .WithMany("Inscripciones")
+                        .HasForeignKey("EstudianteId1");
+
                     b.HasOne("Domain.Entities.Materia", "Materia")
                         .WithMany()
                         .HasForeignKey("MateriaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
+                    b.HasOne("Domain.Entities.Materia", null)
+                        .WithMany("EstudiantesInscritos")
+                        .HasForeignKey("MateriaId1");
+
                     b.Navigation("Estudiante");
 
                     b.Navigation("Materia");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Estudiante", b =>
+                {
+                    b.Navigation("Inscripciones");
+                });
+
+            modelBuilder.Entity("Domain.Entities.Materia", b =>
+                {
+                    b.Navigation("EstudiantesInscritos");
                 });
 #pragma warning restore 612, 618
         }

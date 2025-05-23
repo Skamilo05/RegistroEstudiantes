@@ -17,3 +17,4 @@ C:\Users\User\source\repos\RegistroEstudiantes\infrastructure\obj\Debug\net8.0\i
 C:\Users\User\source\repos\RegistroEstudiantes\infrastructure\obj\Debug\net8.0\ref\infrastructure.dll
 C:\Users\User\source\repos\RegistroEstudiantes\infrastructure\bin\Debug\net8.0\infrastructure.runtimeconfig.json
 C:\Users\User\source\repos\RegistroEstudiantes\infrastructure\obj\Debug\net8.0\infrastructure.genruntimeconfig.cache
+C:\Users\User\source\repos\RegistroEstudiantes\infrastructure\obj\Debug\net8.0\infrastructure.sourcelink.json

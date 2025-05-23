@@ -5,7 +5,7 @@
 namespace infrastructure.Migrations
 {
     /// <inheritdoc />
-    public partial class Inicial : Migration
+    public partial class InitialCreate : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -18,8 +18,7 @@ namespace infrastructure.Migrations
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Nombre = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Correo = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    Contrasena = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    MateriasInscritas = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                    Contrasena = table.Column<string>(type: "nvarchar(max)", nullable: false)
                 },
                 constraints: table =>
                 {
@@ -62,7 +61,9 @@ namespace infrastructure.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     EstudianteId = table.Column<int>(type: "int", nullable: false),
-                    MateriaId = table.Column<int>(type: "int", nullable: false)
+                    MateriaId = table.Column<int>(type: "int", nullable: false),
+                    EstudianteId1 = table.Column<int>(type: "int", nullable: true),
+                    MateriaId1 = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
@@ -74,11 +75,21 @@ namespace infrastructure.Migrations
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                     table.ForeignKey(
+                        name: "FK_EstudiantesMaterias_Estudiantes_EstudianteId1",
+                        column: x => x.EstudianteId1,
+                        principalTable: "Estudiantes",
+                        principalColumn: "Id");
+                    table.ForeignKey(
                         name: "FK_EstudiantesMaterias_Materias_MateriaId",
                         column: x => x.MateriaId,
                         principalTable: "Materias",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_EstudiantesMaterias_Materias_MateriaId1",
+                        column: x => x.MateriaId1,
+                        principalTable: "Materias",
+                        principalColumn: "Id");
                 });
 
             migrationBuilder.CreateIndex(
@@ -87,9 +98,19 @@ namespace infrastructure.Migrations
                 column: "EstudianteId");
 
             migrationBuilder.CreateIndex(
+                name: "IX_EstudiantesMaterias_EstudianteId1",
+                table: "EstudiantesMaterias",
+                column: "EstudianteId1");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_EstudiantesMaterias_MateriaId",
                 table: "EstudiantesMaterias",
                 column: "MateriaId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_EstudiantesMaterias_MateriaId1",
+                table: "EstudiantesMaterias",
+                column: "MateriaId1");
         }
 
         /// <inheritdoc />
