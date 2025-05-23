@@ -33,6 +33,7 @@ public class ObtenerResumenEstudianteHandler : IObtenerResumenEstudianteUseCase
 
         var materiaDtos = materias.Select(m => new MateriaResumenDto
         {
+            Id = m.Id,
             Nombre = m.Nombre,
             Profesor = _profesorRepo.ObtenerPorIdAsync(m.ProfesorId).Result?.Nombre ?? "Desconocido",
             Creditos = m.Creditos

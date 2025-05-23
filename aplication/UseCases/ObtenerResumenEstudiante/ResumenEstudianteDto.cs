@@ -16,6 +16,7 @@ public class ResumenEstudianteDto
 
 public class MateriaResumenDto
 {
+    public int Id { get; set; }
     public string Nombre { get; set; } = string.Empty;
     public string Profesor { get; set; } = string.Empty;
     public int Creditos { get; set; }
